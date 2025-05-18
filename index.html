@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Test Website Prototype</title>
+<style>
+  /* Reset & basics */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    background: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .container {
+    background: white;
+    max-width: 720px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    padding: 24px 32px;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #222;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+  }
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover:not(:disabled) {
+    background: #0056b3;
+  }
+  button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  .error {
+    color: #d9534f;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: none;
+  }
+  .timer {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #555;
+  }
+  .question {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+  }
+  .question h3 {
+    margin: 0 0 12px;
+    font-size: 1.1rem;
+  }
+  .options label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .options input[type="radio"] {
+    margin-right: 8px;
+  }
+  .options label:hover {
+    background: #e9f0ff;
+  }
+  .options input[type="radio"]:checked + label {
+    background: #cce0ff;
+    border-color: #007bff;
+    font-weight: 600;
+  }
+  .result {
+    margin-top: 24px;
+    padding: 16px;
+    background: #e9f9e9;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    color: #2e7d32;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .answer-review {
+    margin-top: 20px;
+  }
+  .answer-review h3 {
+    margin-bottom: 12px;
+  }
+  .answer-item {
+    margin-bottom: 14px;
+    padding: 12px;
+    background: #f7f7f7;
+    border-radius: 6px;
+  }
+  .answer-item.correct {
+    border-left: 6px solid #4caf50;
+  }
+  .answer-item.incorrect {
+    border-left: 6px solid #d9534f;
+  }
+  .answer-item p {
+    margin: 4px 0;
+  }
+  @media (max-width: 480px) {
+    .container {
+      padding: 20px 16px;
+    }
+    button {
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Welcome section -->
+  <section id="welcome-section">
+    <h1>Welcome to the Test Portal</h1>
+    <p style="text-align:center; font-size:1.1rem; margin-bottom:16px;">
+      Please enter the course you want to take the test for.
+    </p>
+    <input type="text" id="course-input" placeholder="Enter course code(e.g CHM 222)" autocomplete="off" />
+    <div class="error" id="course-error">Please enter a valid course name.</div>
+    <button id="start-test-btn">Start Test</button>
+  </section>
+
+  <!-- Test section -->
+  <section id="test-section" style="display:none;">
+    <div class="timer" id="timer">Time Left: 20:00</div>
+    <form id="test-form">
+      <div id="questions-container"></div>
+      <button type="submit" id="submit-btn">Submit Test</button>
+    </form>
+  </section>
+
+  <!-- Result section -->
+  <section id="result-section" style="display:none;">
+    <h2>Your Score</h2>
+    <div class="result" id="score-display"></div>
+    <div class="answer-review" id="answer-review"></div>
+    <button id="restart-btn" style="margin-top:20px;">Take Another Test</button>
+  </section>
+
+</div>
+
+<script>
+  // Elements
+  const welcomeSection = document.getElementById('welcome-section');
+  const testSection = document.getElementById('test-section');
+  const resultSection = document.getElementById('result-section');
+
+  const courseInput = document.getElementById('course-input');
+  const startTestBtn = document.getElementById('start-test-btn');
+  const courseError = document.getElementById('course-error');
+
+  const timerDisplay = document.getElementById('timer');
+  const questionsContainer = document.getElementById('questions-container');
+  const testForm = document.getElementById('test-form');
+  const submitBtn = document.getElementById('submit-btn');
+
+  const scoreDisplay = document.getElementById('score-display');
+  const answerReview = document.getElementById('answer-review');
+  const restartBtn = document.getElementById('restart-btn');
+
+  let currentQuestions = [];
+  let timerInterval;
+  let timeLeft = 1200; // 20 minutes in seconds
+
+  // Load questions JSON and pick 30-40 randomly
+async function loadQuestions(courseName) {
+  const course = courseName.trim().toLowerCase();
+  try {
+    const res = await fetch(`${course}.json`);
+    
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    
+    // First get the response as text to debug
+    const textData = await res.text();
+    console.log("Raw response:", textData);
+    
+    try {
+      const data = JSON.parse(textData);
+      console.log('Parsed JSON:', data);
+      
+      // Rest of your existing code...
+      const total = data.length;
+      let numQuestions = Math.min(40, total);
+      if (numQuestions < 30) numQuestions = total;
+
+      // Shuffle and select questions
+      currentQuestions = [...data].sort(() => 0.5 - Math.random()).slice(0, numQuestions);
+      return true;
+      
+    } catch (parseError) {
+      console.error('JSON parsing failed:', parseError);
+      courseError.textContent = 'Invalid question data format';
+      return false;
+    }
+    
+  } catch (fetchError) {
+    console.error('Fetch failed:', fetchError);
+    courseError.textContent = `Failed to load "${course}" course`;
+    return false;
+  }
+}
+
+  // Render questions to the form
+  function renderQuestions() {
+    questionsContainer.innerHTML = '';
+    currentQuestions.forEach((q, i) => {
+      const div = document.createElement('div');
+      div.classList.add('question');
+
+      const qTitle = document.createElement('h3');
+      qTitle.textContent = `Q${i + 1}: ${q.question}`;
+      div.appendChild(qTitle);
+
+      const optionsDiv = document.createElement('div');
+      optionsDiv.classList.add('options');
+
+      q.options.forEach((opt, idx) => {
+        const optionId = `q${i}_opt${idx}`;
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.id = optionId;
+        radio.name = `question${i}`;
+        radio.value = opt;
+
+        const label = document.createElement('label');
+        label.htmlFor = optionId;
+        label.textContent = opt;
+
+        optionsDiv.appendChild(radio);
+        optionsDiv.appendChild(label);
+      });
+
+      div.appendChild(optionsDiv);
+      questionsContainer.appendChild(div);
+    });
+  }
+
+  // Format seconds as MM:SS
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+  }
+
+  // Start countdown timer
+  function startTimer() {
+    timerDisplay.textContent = `Time Left: ${formatTime(timeLeft)}`;
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      timerDisplay.textContent = `Time Left: ${formatTime(timeLeft)}`;
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        submitTest();
+      }
+    }, 1000);
+  }
+
+  // Submit and score test
+  function submitTest() {
+    clearInterval(timerInterval);
+    submitBtn.disabled = true;
+
+    let score = 0;
+    const total = currentQuestions.length;
+    answerReview.innerHTML = '';
+
+    currentQuestions.forEach((q, i) => {
+      const selected = testForm[`question${i}`].value;
+      const isCorrect = selected === q.answer;
+
+      if (isCorrect) score++;
+
+      const reviewItem = document.createElement('div');
+      reviewItem.className = 'answer-item ' + (isCorrect ? 'correct' : 'incorrect');
+      reviewItem.innerHTML = `
+        <p><strong>Q${i + 1}:</strong> ${q.question}</p>
+        <p><strong>Your Answer:</strong> ${selected || 'No Answer'}</p>
+        <p><strong>Correct Answer:</strong> ${q.answer}</p>
+      `;
+      answerReview.appendChild(reviewItem);
+    });
+
+    scoreDisplay.textContent = `${score} / ${total} (${((score / total) * 100).toFixed(1)}%)`;
+
+    testSection.style.display = 'none';
+    resultSection.style.display = 'block';
+  }
+
+  // Event Listeners
+  startTestBtn.addEventListener('click', async () => {
+    const courseName = courseInput.value.trim();
+    if (!courseName) {
+      courseError.style.display = 'block';
+      return;
+    }
+    courseError.style.display = 'none';
+
+    const loaded = await loadQuestions(courseName);
+    if (!loaded) {
+      courseError.textContent = 'Course not found or failed to load questions.';
+      courseError.style.display = 'block';
+      return;
+    }
+
+    welcomeSection.style.display = 'none';
+    testSection.style.display = 'block';
+    renderQuestions();
+    startTimer();
+  });
+
+  testForm.addEventListener('submit', e => {
+    e.preventDefault();
+    submitTest();
+  });
+
+  restartBtn.addEventListener('click', () => {
+    // Reset state
+    courseInput.value = '';
+    timeLeft = 1200;
+    currentQuestions = [];
+    submitBtn.disabled = false;
+    questionsContainer.innerHTML = '';
+    answerReview.innerHTML = '';
+    scoreDisplay.textContent = '';
+    courseError.style.display = 'none';
+
+    resultSection.style.display = 'none';
+    welcomeSection.style.display = 'block';
+  });
+</script>
