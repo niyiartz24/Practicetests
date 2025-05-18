@@ -1,0 +1,402 @@
+[
+  {
+    "question": "What is the primary challenge that animals face from their external environment?",
+    "options": [
+      "Constant internal conditions",
+      "Variability in temperature, water, and gas concentrations",
+      "Stable nutrient availability",
+      "Uniform pH levels"
+    ],
+    "answer": "Variability in temperature, water, and gas concentrations"
+  },
+  {
+    "question": "Into which two categories can external environments be divided?",
+    "options": [
+      "Urban and rural",
+      "Terrestrial and aquatic",
+      "Tropical and polar",
+      "Highland and lowland"
+    ],
+    "answer": "Terrestrial and aquatic"
+  },
+  {
+    "question": "What is homeostasis in the context of animal physiology?",
+    "options": [
+      "Adaptation to external changes",
+      "Maintenance of a constant internal state",
+      "Rapid response to stimuli",
+      "Energy production"
+    ],
+    "answer": "Maintenance of a constant internal state"
+  },
+  {
+    "question": "What are the two main types of body fluids in animals?",
+    "options": [
+      "Blood and lymph",
+      "Extracellular and intracellular fluids",
+      "Plasma and hemolymph",
+      "Cytoplasm and interstitial fluid"
+    ],
+    "answer": "Extracellular and intracellular fluids"
+  },
+  {
+    "question": "What is the main extracellular cation in animal body fluids?",
+    "options": [
+      "Potassium (K⁺)",
+      "Calcium (Ca²⁺)",
+      "Sodium (Na⁺)",
+      "Magnesium (Mg²⁺)"
+    ],
+    "answer": "Sodium (Na⁺)"
+  },
+  {
+    "question": "What is the major cation found in intracellular fluid?",
+    "options": [
+      "Sodium (Na⁺)",
+      "Potassium (K⁺)",
+      "Chloride (Cl⁻)",
+      "Calcium (Ca²⁺)"
+    ],
+    "answer": "Potassium (K⁺)"
+  },
+  {
+    "question": "Why must intracellular fluid have the same total solute concentration as extracellular fluid?",
+    "options": [
+      "To enhance nutrient absorption",
+      "To maintain osmotic equilibrium",
+      "To increase cell size",
+      "To reduce energy consumption"
+    ],
+    "answer": "To maintain osmotic equilibrium"
+  },
+  {
+    "question": "What is the primary role of negative feedback in homeostasis?",
+    "options": [
+      "Amplifies changes in variables",
+      "Opposes changes to restore original value",
+      "Increases metabolic rate",
+      "Triggers rapid responses"
+    ],
+    "answer": "Opposes changes to restore original value"
+  },
+  {
+    "question": "What is an example of positive feedback in physiological processes?",
+    "options": [
+      "Temperature regulation",
+      "Blood coagulation",
+      "Blood sugar control",
+      "pH balance"
+    ],
+    "answer": "Blood coagulation"
+  },
+  {
+    "question": "What are the three principal components of a feedback system?",
+    "options": [
+      "Sensor, processor, actuator",
+      "Receptor, integrating center, effector",
+      "Input, output, feedback",
+      "Stimulus, response, control"
+    ],
+    "answer": "Receptor, integrating center, effector"
+  },
+  {
+    "question": "What is the function of a receptor in a feedback system?",
+    "options": [
+      "Initiates responses",
+      "Compares information",
+      "Detects environmental changes",
+      "Amplifies signals"
+    ],
+    "answer": "Detects environmental changes"
+  },
+  {
+    "question": "What is the role of the integrating center in a feedback system?",
+    "options": [
+      "Detects changes",
+      "Compares information with set point",
+      "Executes responses",
+      "Stores energy"
+    ],
+    "answer": "Compares information with set point"
+  },
+  {
+    "question": "What is a set point in the context of homeostatic control?",
+    "options": [
+      "Maximum variable value",
+      "Predetermined value to maintain",
+      "Minimum energy level",
+      "External environmental condition"
+    ],
+    "answer": "Predetermined value to maintain"
+  },
+  {
+    "question": "What is feedforward in the context of physiological systems?",
+    "options": [
+      "Reactive response to stimuli",
+      "Anticipatory behavior to minimize disruption",
+      "Energy storage mechanism",
+      "Feedback loop amplification"
+    ],
+    "answer": "Anticipatory behavior to minimize disruption"
+  },
+  {
+    "question": "What is equilibrium homeostasis?",
+    "options": [
+      "Active regulation of internal conditions",
+      "Body temperature mirroring external environment",
+      "Constant energy production",
+      "Rapid adaptation to stimuli"
+    ],
+    "answer": "Body temperature mirroring external environment"
+  },
+  {
+    "question": "Why do animals require regular inputs of energy?",
+    "options": [
+      "To store energy indefinitely",
+      "For metabolism, growth, and repair",
+      "To maintain external environment",
+      "To reduce body temperature"
+    ],
+    "answer": "For metabolism, growth, and repair"
+  },
+  {
+    "question": "What are the two subsets of processes in energy metabolism?",
+    "options": [
+      "Aerobic and anaerobic",
+      "Catabolic and anabolic",
+      "Synthetic and degradative",
+      "Active and passive"
+    ],
+    "answer": "Catabolic and anabolic"
+  },
+  {
+    "question": "What are the six categories of foodstuffs involved in metabolism?",
+    "options": [
+      "Sugars, starches, fats, proteins, minerals, water",
+      "Proteins, carbohydrates, lipids, water, minerals, vitamins",
+      "Amino acids, glucose, lipids, vitamins, enzymes, water",
+      "Carbohydrates, proteins, fats, fibers, vitamins, minerals"
+    ],
+    "answer": "Proteins, carbohydrates, lipids, water, minerals, vitamins"
+  },
+  {
+    "question": "What is the process of deamination in protein metabolism?",
+    "options": [
+      "Synthesis of amino acids",
+      "Liberation of ammonia from amino acids",
+      "Conversion of proteins to fats",
+      "Storage of amino acids"
+    ],
+    "answer": "Liberation of ammonia from amino acids"
+  },
+  {
+    "question": "Where does urea formation occur in the body?",
+    "options": [
+      "Kidneys",
+      "Liver",
+      "Intestines",
+      "Muscles"
+    ],
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the role of creatine in muscle metabolism?",
+    "options": [
+      "Increases blood flow",
+      "Provides energy and acts as a buffer",
+      "Synthesizes proteins",
+      "Regulates pH"
+    ],
+    "answer": "Provides energy and acts as a buffer"
+  },
+  {
+    "question": "What are nucleoproteins composed of chemically?",
+    "options": [
+      "Lipids and nucleic acids",
+      "Simple proteins and nucleic acids",
+      "Carbohydrates and proteins",
+      "Vitamins and amino acids"
+    ],
+    "answer": "Simple proteins and nucleic acids"
+  },
+  {
+    "question": "What are the four bases present in DNA?",
+    "options": [
+      "Adenine, guanine, uracil, cytosine",
+      "Adenine, guanine, thymine, cytosine",
+      "Thymine, uracil, adenine, guanine",
+      "Cytosine, adenine, thymine, uracil"
+    ],
+    "answer": "Adenine, guanine, thymine, cytosine"
+  },
+  {
+    "question": "What is the primary role of RNA in a cell?",
+    "options": [
+      "Energy production",
+      "Protein synthesis",
+      "DNA replication",
+      "Lipid storage"
+    ],
+    "answer": "Protein synthesis"
+  },
+  {
+    "question": "How is glucose primarily utilized after absorption in carbohydrate metabolism?",
+    "options": [
+      "Stored as protein",
+      "Oxidized for energy, converted to glycogen, or fat",
+      "Excreted immediately",
+      "Used for DNA synthesis"
+    ],
+    "answer": "Oxidized for energy, converted to glycogen, or fat"
+  },
+  {
+    "question": "What is the normal blood glucose concentration in a fasting human?",
+    "options": [
+      "50 mg/100 ml",
+      "80 mg/100 ml",
+      "120 mg/100 ml",
+      "150 mg/100 ml"
+    ],
+    "answer": "80 mg/100 ml"
+  },
+  {
+    "question": "What hormone is closely linked with carbohydrate utilization in the body?",
+    "options": [
+      "Adrenaline",
+      "Insulin",
+      "Glucagon",
+      "Cortisol"
+    ],
+    "answer": "Insulin"
+  },
+  {
+    "question": "What is glycolysis in carbohydrate metabolism?",
+    "options": [
+      "Synthesis of glucose",
+      "Anaerobic splitting of glucose to pyruvic acid",
+      "Conversion of fat to glucose",
+      "Aerobic oxidation of glycogen"
+    ],
+    "answer": "Anaerobic splitting of glucose to pyruvic acid"
+  },
+  {
+    "question": "What is the Cori cycle?",
+    "options": [
+      "Conversion of glucose to fat",
+      "Cyclic pathway of muscle glycogen to lactic acid and back to liver glycogen",
+      "Synthesis of proteins",
+      "Oxidation of amino acids"
+    ],
+    "answer": "Cyclic pathway of muscle glycogen to lactic acid and back to liver glycogen"
+  },
+  {
+    "question": "What is gluconeogenesis?",
+    "options": [
+      "Breakdown of glycogen",
+      "Formation of glycogen from non-carbohydrate sources",
+      "Synthesis of glucose from carbohydrates",
+      "Oxidation of glucose"
+    ],
+    "answer": "Formation of glycogen from non-carbohydrate sources"
+  },
+  {
+    "question": "What are the three major processes involved in fat metabolism?",
+    "options": [
+      "Digestion, absorption, excretion",
+      "Mobilization, absorption, synthesis",
+      "Oxidation, storage, breakdown",
+      "Synthesis, transport, degradation"
+    ],
+    "answer": "Mobilization, absorption, synthesis"
+  },
+  {
+    "question": "What is the primary function of the circulatory system in animals?",
+    "options": [
+      "Energy production",
+      "Rapid bulk movement of substances",
+      "Temperature regulation",
+      "Hormone synthesis"
+    ],
+    "answer": "Rapid bulk movement of substances"
+  },
+  {
+    "question": "What are the basic components of a circulatory system?",
+    "options": [
+      "Fluid, pump, vessels",
+      "Blood, heart, muscles",
+      "Plasma, cells, veins",
+      "Arteries, capillaries, lymph"
+    ],
+    "answer": "Fluid, pump, vessels"
+  },
+  {
+    "question": "What is the hematocrit in blood composition?",
+    "options": [
+      "Percentage of plasma",
+      "Percentage of blood volume occupied by cells",
+      "Concentration of hemoglobin",
+      "Volume of white blood cells"
+    ],
+    "answer": "Percentage of blood volume occupied by cells"
+  },
+  {
+    "question": "What is the difference between neurogenic and myogenic hearts?",
+    "options": [
+      "Neurogenic require neural innervation, myogenic are spontaneous",
+      "Neurogenic are faster, myogenic are slower",
+      "Neurogenic are in vertebrates, myogenic in invertebrates",
+      "Neurogenic use hormones, myogenic use muscles"
+    ],
+    "answer": "Neurogenic require neural innervation, myogenic are spontaneous"
+  },
+  {
+    "question": "What is the main disadvantage of an open circulatory system?",
+    "options": [
+      "High pressure delivery",
+      "Slow blood delivery due to low pressure",
+      "Complex regulation",
+      "Excessive energy use"
+    ],
+    "answer": "Slow blood delivery due to low pressure"
+  },
+  {
+    "question": "What are the three types of blood vessels in a vertebrate closed circulatory system?",
+    "options": [
+      "Arteries, veins, lymphatics",
+      "Arteries, capillaries, veins",
+      "Capillaries, venules, arterioles",
+      "Aorta, veins, venules"
+    ],
+    "answer": "Arteries, capillaries, veins"
+  },
+  {
+    "question": "What is the fundamental property of life that the nervous system originated from?",
+    "options": [
+      "Reproduction",
+      "Irritability",
+      "Metabolism",
+      "Growth"
+    ],
+    "answer": "Irritability"
+  },
+  {
+    "question": "What is the resting membrane potential of a neuron?",
+    "options": [
+      "-50 mV",
+      "-70 mV",
+      "0 mV",
+      "+35 mV"
+    ],
+    "answer": "-70 mV"
+  },
+  {
+    "question": "What are the two types of synapses described in the nervous system?",
+    "options": [
+      "Fast and slow",
+      "Electrical and chemical",
+      "Excitatory and inhibitory",
+      "Central and peripheral"
+    ],
+    "answer": "Electrical and chemical"
+  }
+]

@@ -1,0 +1,207 @@
+ [
+    {
+      "question": "What are the two main types of cells based on cellular organization?",
+      "options": ["Prokaryotes and Eukaryotes", "Animal and Plant cells", "Bacteria and Archaea", "Unicellular and Multicellular"],
+      "answer": "Prokaryotes and Eukaryotes"
+    },
+    {
+      "question": "Which structure is absent in prokaryotic cells?",
+      "options": ["Nucleus", "Cell wall", "Plasma membrane", "Ribosomes"],
+      "answer": "Nucleus"
+    },
+    {
+      "question": "What is the function of plasmids in prokaryotic cells?",
+      "options": ["DNA transfer during conjugation", "ATP production", "Protein synthesis", "Cell wall formation"],
+      "answer": "DNA transfer during conjugation"
+    },
+    {
+      "question": "Which component is found in the cell wall of Gram-positive bacteria?",
+      "options": ["Multiple layers of peptidoglycan", "Single layer of peptidoglycan", "Cellulose", "Chitin"],
+      "answer": "Multiple layers of peptidoglycan"
+    },
+    {
+      "question": "What is the primary function of mitochondria in eukaryotic cells?",
+      "options": ["ATP production", "Protein synthesis", "Lipid storage", "DNA replication"],
+      "answer": "ATP production"
+    },
+    {
+      "question": "Which organelle is responsible for photosynthesis in plant cells?",
+      "options": ["Chloroplast", "Mitochondria", "Golgi apparatus", "Endoplasmic reticulum"],
+      "answer": "Chloroplast"
+    },
+    {
+      "question": "What is the main function of the Golgi apparatus?",
+      "options": ["Modification and sorting of proteins", "ATP production", "DNA replication", "Lipid synthesis"],
+      "answer": "Modification and sorting of proteins"
+    },
+    {
+      "question": "Which of the following is a function of lysosomes?",
+      "options": ["Digestion of cellular debris", "ATP production", "Protein synthesis", "DNA replication"],
+      "answer": "Digestion of cellular debris"
+    },
+    {
+      "question": "What is the primary component of plant cell walls?",
+      "options": ["Cellulose", "Peptidoglycan", "Chitin", "Phospholipids"],
+      "answer": "Cellulose"
+    },
+    {
+      "question": "Which of the following is a derived lipid?",
+      "options": ["Cholesterol", "Triacylglycerol", "Phospholipid", "Glycolipid"],
+      "answer": "Cholesterol"
+    },
+    {
+      "question": "What is the primary energy storage form of lipids in adipose tissue?",
+      "options": ["Triacylglycerol", "Phospholipids", "Cholesterol", "Glycolipids"],
+      "answer": "Triacylglycerol"
+    },
+    {
+      "question": "Which enzyme is responsible for the digestion of triacylglycerols in the intestine?",
+      "options": ["Pancreatic lipase", "Amylase", "Pepsin", "Trypsin"],
+      "answer": "Pancreatic lipase"
+    },
+    {
+      "question": "What is the function of bile salts in lipid digestion?",
+      "options": ["Emulsification of fats", "Hydrolysis of proteins", "Breakdown of carbohydrates", "Synthesis of cholesterol"],
+      "answer": "Emulsification of fats"
+    },
+    {
+      "question": "Which lipoprotein transports endogenous triglycerides from the liver to peripheral tissues?",
+      "options": ["VLDL", "LDL", "HDL", "Chylomicrons"],
+      "answer": "VLDL"
+    },
+    {
+      "question": "What is the primary function of HDL?",
+      "options": ["Transport cholesterol from peripheral tissues to the liver", "Transport dietary fats", "Transport endogenous triglycerides", "Synthesize bile salts"],
+      "answer": "Transport cholesterol from peripheral tissues to the liver"
+    },
+    {
+      "question": "Which of the following is an essential fatty acid?",
+      "options": ["Linoleic acid", "Palmitic acid", "Stearic acid", "Oleic acid"],
+      "answer": "Linoleic acid"
+    },
+    {
+      "question": "What is the first step in the β-oxidation of fatty acids?",
+      "options": ["Activation of fatty acid to acyl-CoA", "Hydration", "Oxidation", "Thiolysis"],
+      "answer": "Activation of fatty acid to acyl-CoA"
+    },
+    {
+      "question": "Where does fatty acid synthesis occur in the cell?",
+      "options": ["Cytosol", "Mitochondria", "Nucleus", "Endoplasmic reticulum"],
+      "answer": "Cytosol"
+    },
+    {
+      "question": "Which of the following is a ketone body?",
+      "options": ["β-hydroxybutyrate", "Pyruvate", "Acetyl-CoA", "Oxaloacetate"],
+      "answer": "β-hydroxybutyrate"
+    },
+    {
+      "question": "What is the primary product of the Calvin cycle?",
+      "options": ["Glyceraldehyde 3-phosphate", "Glucose", "Pyruvate", "Acetyl-CoA"],
+      "answer": "Glyceraldehyde 3-phosphate"
+    },
+    {
+      "question": "Which enzyme catalyzes the first committed step of glycolysis?",
+      "options": ["Phosphofructokinase-1", "Hexokinase", "Pyruvate kinase", "Aldolase"],
+      "answer": "Phosphofructokinase-1"
+    },
+    {
+      "question": "What is the net ATP yield from one molecule of glucose in glycolysis?",
+      "options": ["2 ATP", "4 ATP", "6 ATP", "8 ATP"],
+      "answer": "2 ATP"
+    },
+    {
+      "question": "Which of the following is an allosteric activator of phosphofructokinase-1?",
+      "options": ["AMP", "ATP", "Citrate", "NADH"],
+      "answer": "AMP"
+    },
+    {
+      "question": "What is the end product of anaerobic glycolysis in muscle cells?",
+      "options": ["Lactate", "Pyruvate", "Acetyl-CoA", "Ethanol"],
+      "answer": "Lactate"
+    },
+    {
+      "question": "Which enzyme converts pyruvate to acetyl-CoA?",
+      "options": ["Pyruvate dehydrogenase complex", "Lactate dehydrogenase", "Pyruvate carboxylase", "Phosphoenolpyruvate carboxykinase"],
+      "answer": "Pyruvate dehydrogenase complex"
+    },
+    {
+      "question": "What is the primary function of the Cori cycle?",
+      "options": ["Recycle lactate from muscles to glucose in the liver", "Synthesize fatty acids", "Produce ketone bodies", "Degrade amino acids"],
+      "answer": "Recycle lactate from muscles to glucose in the liver"
+    },
+    {
+      "question": "Which of the following is a glucogenic amino acid?",
+      "options": ["Alanine", "Leucine", "Lysine", "Phenylalanine"],
+      "answer": "Alanine"
+    },
+    {
+      "question": "What is the primary function of the pentose phosphate pathway?",
+      "options": ["Generate NADPH and ribose 5-phosphate", "Produce ATP", "Synthesize fatty acids", "Degrade amino acids"],
+      "answer": "Generate NADPH and ribose 5-phosphate"
+    },
+    {
+      "question": "Which enzyme is responsible for glycogen breakdown?",
+      "options": ["Glycogen phosphorylase", "Glycogen synthase", "Phosphoglucomutase", "Glucose 6-phosphatase"],
+      "answer": "Glycogen phosphorylase"
+    },
+    {
+      "question": "What is the primary substrate for gluconeogenesis?",
+      "options": ["Pyruvate", "Acetyl-CoA", "Fatty acids", "Ketone bodies"],
+      "answer": "Pyruvate"
+    },
+    {
+      "question": "Which of the following is a key enzyme in gluconeogenesis but not in glycolysis?",
+      "options": ["PEP carboxykinase", "Phosphofructokinase-1", "Pyruvate kinase", "Hexokinase"],
+      "answer": "PEP carboxykinase"
+    },
+    {
+      "question": "What is the primary function of the glyoxylate cycle?",
+      "options": ["Convert acetate to succinate for gluconeogenesis", "Produce ATP", "Degrade amino acids", "Synthesize fatty acids"],
+      "answer": "Convert acetate to succinate for gluconeogenesis"
+    },
+    {
+      "question": "Which of the following is a product of the light reactions of photosynthesis?",
+      "options": ["ATP and NADPH", "Glucose", "CO2", "Oxygen"],
+      "answer": "ATP and NADPH"
+    },
+    {
+      "question": "What is the primary pigment involved in light absorption during photosynthesis?",
+      "options": ["Chlorophyll", "Carotenoids", "Phycobilins", "Xanthophylls"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "question": "Which enzyme catalyzes the fixation of CO2 in the Calvin cycle?",
+      "options": ["Rubisco", "PEP carboxylase", "Pyruvate kinase", "Phosphofructokinase"],
+      "answer": "Rubisco"
+    },
+    {
+      "question": "What is the primary function of restriction endonucleases?",
+      "options": ["Cleave DNA at specific sequences", "Synthesize DNA", "Repair DNA damage", "Replicate DNA"],
+      "answer": "Cleave DNA at specific sequences"
+    },
+    {
+      "question": "Which of the following is a product of nucleic acid hydrolysis?",
+      "options": ["Nucleotides", "Amino acids", "Fatty acids", "Monosaccharides"],
+      "answer": "Nucleotides"
+    },
+    {
+      "question": "What is the primary function of phosphocreatine in muscle cells?",
+      "options": ["Rapid regeneration of ATP", "Storage of glucose", "Synthesis of proteins", "Degradation of lipids"],
+      "answer": "Rapid regeneration of ATP"
+    },
+    {
+      "question": "Which of the following is a ketogenic amino acid?",
+      "options": ["Leucine", "Alanine", "Serine", "Aspartate"],
+      "answer": "Leucine"
+    },
+    {
+      "question": "What is the primary function of the TCA cycle?",
+      "options": ["Generate reducing equivalents for oxidative phosphorylation", "Synthesize glucose", "Degrade fatty acids", "Produce ketone bodies"],
+      "answer": "Generate reducing equivalents for oxidative phosphorylation"
+    },
+    {
+      "question": "Which of the following is an intermediate in both glycolysis and gluconeogenesis?",
+      "options": ["Glyceraldehyde 3-phosphate", "Acetyl-CoA", "Oxaloacetate", "Pyruvate"],
+      "answer": "Glyceraldehyde 3-phosphate"
+    }
+    ]

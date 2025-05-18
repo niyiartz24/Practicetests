@@ -1,0 +1,342 @@
+[
+    {
+      "question": "What is the origin of the word 'logic'?",
+      "options": [
+        "Latin 'logica' meaning 'thought'",
+        "Greek 'logos' meaning 'word' or 'discourse'",
+        "Hebrew 'logesh' meaning 'reason'",
+        "Egyptian 'logi' meaning 'argument'"
+      ],
+      "answer": "Greek 'logos' meaning 'word' or 'discourse'"
+    },
+    {
+      "question": "Who first systematically organized logic into a coherent area of study?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Pythagoras"
+      ],
+      "answer": "Aristotle"
+    },
+    {
+      "question": "Which of these is NOT one of the three basic uses of language?",
+      "options": [
+        "Informative",
+        "Expressive",
+        "Directive",
+        "Persuasive"
+      ],
+      "answer": "Persuasive"
+    },
+    {
+      "question": "What type of proposition is 'All women are liars'?",
+      "options": [
+        "A proposition",
+        "E proposition",
+        "I proposition",
+        "O proposition"
+      ],
+      "answer": "A proposition"
+    },
+    {
+      "question": "Which fallacy involves attacking the person rather than the argument?",
+      "options": [
+        "Ad hominem",
+        "Ad populum",
+        "Ad ignorantiam",
+        "Ad baculum"
+      ],
+      "answer": "Ad hominem"
+    },
+    {
+      "question": "What is the middle term in this syllogism: 'No saints are promiscuous. All priests are saints. Therefore, no priests are promiscuous.'?",
+      "options": [
+        "Saints",
+        "Priests",
+        "Promiscuous",
+        "No term"
+      ],
+      "answer": "Saints"
+    },
+    {
+      "question": "Which type of argument has premises that guarantee its conclusion?",
+      "options": [
+        "Inductive",
+        "Deductive",
+        "Abductive",
+        "Reductive"
+      ],
+      "answer": "Deductive"
+    },
+    {
+      "question": "What is the mood of a syllogism with major premise E, minor premise A, and conclusion E?",
+      "options": [
+        "EAE",
+        "AEE",
+        "EAE-1",
+        "AEA"
+      ],
+      "answer": "EAE"
+    },
+    {
+      "question": "Which ancient civilization first predicted lunar and solar eclipses?",
+      "options": [
+        "Greeks",
+        "Egyptians and Babylonians",
+        "Chinese",
+        "Romans"
+      ],
+      "answer": "Egyptians and Babylonians"
+    },
+    {
+      "question": "What is the essential characteristic of ceremonial language?",
+      "options": [
+        "It is mainly ritualistic",
+        "It is always informative",
+        "It avoids emotional expression",
+        "It uses complex vocabulary"
+      ],
+      "answer": "It is mainly ritualistic"
+    },
+    {
+      "question": "Which proposition type is 'Some S are not P'?",
+      "options": [
+        "A",
+        "E",
+        "I",
+        "O"
+      ],
+      "answer": "O"
+    },
+    {
+      "question": "What revolution occurred in physics and astronomy in the 16th-17th centuries?",
+      "options": [
+        "Quantum revolution",
+        "Copernican revolution",
+        "Einsteinian revolution",
+        "Newtonian revolution"
+      ],
+      "answer": "Copernican revolution"
+    },
+    {
+      "question": "Which of these is a performative statement?",
+      "options": [
+        "The sky is blue",
+        "I promise to pay you",
+        "All men are mortal",
+        "What time is it?"
+      ],
+      "answer": "I promise to pay you"
+    },
+    {
+      "question": "What distinguishes a sound argument?",
+      "options": [
+        "It has true premises",
+        "It is valid",
+        "It has a true conclusion",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which type of definition arises from deliberate assignment of new meanings to words?",
+      "options": [
+        "Real definition",
+        "Nominal definition",
+        "Lexical definition",
+        "Precising definition"
+      ],
+      "answer": "Nominal definition"
+    },
+    {
+      "question": "What concept did Max Planck introduce in 1900?",
+      "options": [
+        "Relativity",
+        "Quanta",
+        "Electromagnetism",
+        "Gravitation"
+      ],
+      "answer": "Quanta"
+    },
+    {
+      "question": "Which rule of definition states that a definition must not be circular?",
+      "options": [
+        "Must be co-extensive",
+        "Must not be negative",
+        "Must not be circular",
+        "Must state essential attributes"
+      ],
+      "answer": "Must not be circular"
+    },
+    {
+      "question": "What is the predicate in 'Nancy is a university lecturer'?",
+      "options": [
+        "Nancy",
+        "Is",
+        "University lecturer",
+        "None of the above"
+      ],
+      "answer": "University lecturer"
+    },
+    {
+      "question": "Which type of inductive argument involves drawing conclusions about a population from a sample?",
+      "options": [
+        "Enumerative induction",
+        "Inductive analogy",
+        "Inductive generalization",
+        "Statistical induction"
+      ],
+      "answer": "Inductive generalization"
+    },
+    {
+      "question": "What is the symbol for 'if...then...' propositions?",
+      "options": [
+        "⊃",
+        "≡",
+        "∨",
+        "~"
+      ],
+      "answer": "⊃"
+    },
+    {
+      "question": "Which fallacy involves assuming something is true because it hasn't been proven false?",
+      "options": [
+        "Appeal to ignorance",
+        "Appeal to authority",
+        "Begging the question",
+        "False cause"
+      ],
+      "answer": "Appeal to ignorance"
+    },
+    {
+      "question": "What is the quality of 'No crocodile is a flying animal'?",
+      "options": [
+        "Affirmative",
+        "Negative",
+        "Universal",
+        "Particular"
+      ],
+      "answer": "Negative"
+    },
+    {
+      "question": "Which ancient philosopher postulated that the sun is like a red hot stone?",
+      "options": [
+        "Aristotle",
+        "Anaxagoras",
+        "Plato",
+        "Pythagoras"
+      ],
+      "answer": "Anaxagoras"
+    },
+    {
+      "question": "What is the quantity of 'Some Nigerians are US citizens'?",
+      "options": [
+        "Universal",
+        "Particular",
+        "Affirmative",
+        "Negative"
+      ],
+      "answer": "Particular"
+    },
+    {
+      "question": "Which type of proposition is 'Either Accra is the capital of Ghana, or Abuja is the capital of Ghana'?",
+      "options": [
+        "Categorical",
+        "Hypothetical",
+        "Disjunctive",
+        "Conjunctive"
+      ],
+      "answer": "Disjunctive"
+    },
+    {
+      "question": "What did Faraday and Maxwell contribute to physics?",
+      "options": [
+        "Quantum theory",
+        "Theory of relativity",
+        "Electromagnetism",
+        "Atomic theory"
+      ],
+      "answer": "Electromagnetism"
+    },
+    {
+      "question": "Which of these is NOT a premise indicator?",
+      "options": [
+        "Because",
+        "Since",
+        "Therefore",
+        "For"
+      ],
+      "answer": "Therefore"
+    },
+    {
+      "question": "What is the essential nature of argumentative discourse?",
+      "options": [
+        "To win disputes",
+        "To demonstrate truth or falsity of conclusions",
+        "To entertain listeners",
+        "To show off knowledge"
+      ],
+      "answer": "To demonstrate truth or falsity of conclusions"
+    },
+    {
+      "question": "Which type of definition is found in dictionaries?",
+      "options": [
+        "Stipulative",
+        "Lexical",
+        "Precising",
+        "Theoretical"
+      ],
+      "answer": "Lexical"
+    },
+    {
+      "question": "What concept did Einstein introduce in 1905?",
+      "options": [
+        "Quantum theory",
+        "Relativity theory",
+        "Electromagnetic theory",
+        "Atomic theory"
+      ],
+      "answer": "Relativity theory"
+    },
+    {
+      "question": "What is the form of 'If p then q'?",
+      "options": [
+        "p ∨ q",
+        "p ⊃ q",
+        "p ≡ q",
+        "p ∧ q"
+      ],
+      "answer": "p ⊃ q"
+    },
+    {
+      "question": "Which fallacy involves shifting attention from the main point to a different conclusion?",
+      "options": [
+        "Straw man",
+        "Red herring",
+        "Irrelevant conclusion",
+        "Slippery slope"
+      ],
+      "answer": "Irrelevant conclusion"
+    },
+    {
+      "question": "What is the copula in 'Leslie is not a pilot'?",
+      "options": [
+        "Leslie",
+        "Is not",
+        "Pilot",
+        "None of the above"
+      ],
+      "answer": "Is not"
+    },
+    {
+      "question": "When did serious technological education begin?",
+      "options": [
+        "1500-1550",
+        "1600-1650",
+        "1700-1750",
+        "1851-1867"
+      ],
+      "answer": "1851-1867"
+    }
+    ]
